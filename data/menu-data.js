@@ -1,10 +1,10 @@
 const lunchPrices = {
-  tier1: {reg: "$13.99", mini: "$9.99"},
-  tier2: {reg: "$15.49", mini: "$11.49"},
-  tier3: {reg: "$16.99", mini: "$12.99"},
+  tier1: {reg: "$14.99", mini: "$10.99"},
+  tier2: {reg: "$16.49", mini: "$12.49"},
+  tier3: {reg: "$17.99", mini: "$13.99"},
 };
 
-const comboPlatePrices = {reg: "$19.99", mini: "$19.99"};
+const comboPlatePrices = {reg: "$20.99", mini: "$20.99"};
 
 const partyPanPrices = {
   tier1: {sm: "$34.99", md: "$55.99", lg: "$80.99"},
@@ -23,11 +23,10 @@ const partyPanPackPrices = {
 
 const lunchWokPlates = [
   { name: "Fried Rice / Chow Mein / Stir Fry Vegetable_______________", price: "", description: "" },
-  { name: "____w/ Beef or Chicken", price: "$14.99", description: "" },
-  { name: "____w/ Shrimp", price: "$15.99", description: "" },
+  { name: "____w/ Beef or Chicken", price: "$15.49", description: "" },
+  { name: "____w/ Shrimp", price: "$16.99", description: "" },
   { name: "Fried Saimin", price: "$13.99", description: "" },
   { name: "____w/ BBQ Chicken or Teri Beef", price: "$17.99", description: "" },
-  { name: "Bento (Katsu, Teriyaki Steak, Fish, Spam)", price: "$15.99", description: "" },
 ];
 
 const lunchSandwiches = [
@@ -47,24 +46,22 @@ const lunchSandwiches = [
 ];
 
 const lunchSalads = [
-  { name: "Tossed Green Salad", price: "$9.99", description: "" },
+  { name: "Tossed Green Salad", price: "$10.99", description: "" },
   { name: "Oriental Chinese Chicken Salad", price: "$14.99", description: "" },
-  { name: "Grilled Chicken Salad", price: "$16.99", description: "" },
-  { name: "Shrimp Salad", price: "$16.99", description: "" },
+  { name: "Garlic Fish Salad", price: "$17.99", description: "" },
+  { name: "Shrimp Salad", price: "$18.99", description: "" },
 ];
 
 const lunchSides = [
-  { name: "Steamed Rice", price: "$2.10", description: "" },
-  { name: "Brown Rice", price: "$2.35", description: "" },
-  { name: "Macaroni Salad", price: "$4.25", description: "" },
-  { name: "French Fries", price: "$4.50", description: "" },
-  { name: "Onion Rings", price: "$4.90", description: "" },
-  { name: "Chili Fries", price: "$6.50", description: "" },
-  { name: "Saimin", price: "$7.50", description: "" },
-  { name: "Teri Beef Saimin", price: "$9.50", description: "" },
+  { name: "Spam Musubi", price: "$2.99", description: "" },
+  { name: "Pork Lumpia", price: "$1.50", description: "" },
+  { name: "French Fries", price: "$4.99", description: "" },
+  { name: "Chili Fries", price: "$7.99", description: "" },
+  { name: "Chili Cheese Fries", price: "$8.99", description: "" },
+  { name: "Saimin", price: "$7.99", description: "" },
   { name: "Won Ton Mein", price: "$9.99", description: "" },
   { name: "Won Ton Soup", price: "$9.99", description: "" },
-  { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$10.99", description: "" },
+  { name: "Bento (Katsu, Teriyaki Steak, Fish, Spam)", price: "$15.99", description: "" },
 ];
 
 const lunch = [lunchWokPlates, lunchSandwiches, lunchSalads, lunchSides];
